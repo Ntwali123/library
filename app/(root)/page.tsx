@@ -1,6 +1,14 @@
 import React from "react";
+import BookOverview from "@/components/BookOverview";
+import BookList from "@/components/BookList";
+// import Header from "@/components/Header";
 
 const Page = () => {
-  return <div className="text-7xl text-green-400">Page</div>;
+  return (
+    <>
+      <BookOverview />
+      <BookList />
+    </>
+  );
 };
 export default Page;
